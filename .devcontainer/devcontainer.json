@@ -4,5 +4,13 @@
         "ghcr.io/devcontainers/feature-starter/hello:1": {
             "greeting": "Hello"
         }
-    }
+    },
+    "capAdd": [
+	"SYS_ADMIN",
+	"NET_ADMIN"
+    ],
+    "securityOpt": [
+	    "label=user:USER",
+	    "label=role:ROLE"
+    ]
 }
